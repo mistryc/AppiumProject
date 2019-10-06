@@ -35,9 +35,9 @@ class LoginEB:
         # assertEqual("Name is displayed")
 
     def enter_un_pw(self):
-        self.email_text(self.driver).send_keys("chetanmistry02@yahoo.com")
+        self.email_text(self.driver).send_keys("")
         self.driver.hide_keyboard()
         self.continue_buton(self.driver).click()
-        self.password_text(self.driver).send_keys("Chetan@02")
+        self.password_text(self.driver).send_keys("")
         self.driver.hide_keyboard()
         self.continue_buton(self.driver).click()
