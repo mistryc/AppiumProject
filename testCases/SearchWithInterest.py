@@ -26,7 +26,6 @@ class SearchByInterestTestCase(unittest.TestCase):
 
         # select the time form list
         searchevent.select_time_mood_from_list(self.driver).click()
-        selected_time = searchevent.time_of_event(self.driver).text
 
         # tap to select the location for the events
         searchevent.location(self.driver).click()
@@ -34,14 +33,12 @@ class SearchByInterestTestCase(unittest.TestCase):
         # type the location interested and select it form the list
         searchevent.insert_location(self.driver).send_keys('Chicago')
         searchevent.select_location_from_list(self.driver).click()
-        selected_location = searchevent.location(self.driver).text
 
         # tap to select mood
         searchevent.mood(self.driver).click()
 
         # select mood from the list
         searchevent.select_time_mood_from_list(self.driver).click()
-        selected_mood = searchevent.mood(self.driver).text
 
         # click on next button
         searchevent.forward_button(self.driver).click()

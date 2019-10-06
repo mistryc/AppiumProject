@@ -32,7 +32,6 @@ class LoginEB:
             return True
         else:
             return False
-        # assertEqual("Name is displayed")
 
     def enter_un_pw(self):
         self.email_text(self.driver).send_keys("")

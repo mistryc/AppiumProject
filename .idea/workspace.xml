@@ -4,6 +4,7 @@
     <list default="true" id="6de30fee-c579-48a3-a44a-d185efd7f63e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObjects/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/SearchWithInterest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/SearchWithInterest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
